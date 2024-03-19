@@ -1,0 +1,27 @@
+img {
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,o.1);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
+#mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+@import url(@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap')
+
+*{
+    font-family: "Noto Sans KR", sans-serif;
+}
