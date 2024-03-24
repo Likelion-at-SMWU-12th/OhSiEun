@@ -19,8 +19,8 @@
             <div class="profilebox">
                 <img src="./11zon_cropped.png"/>
                 <h1>Sieun Oh</h1>
-                <input type="button" value="☀️" />
-                <input type="button" value="🌙" />
+                <input type="button" value="☀️" onclick="lightmode()"/>
+                <input type="button" value="🌙" onclick="darkmode()"/>
             </div>
         </section>
         <section>
@@ -34,13 +34,29 @@
         </section>
         <section>
             <h2>MY STUDY</h2>
-            <p>관심 언어: 영어^__^</p>
+            <p>관심 언어: 영어^_^</p>
             <p>공부중인 것: 내가 모르는 무수한 것들</p>
             <p>관심 분야: UXUI</p>
             <p>저는 서비스의 실질적 구현을 아는 디자이너가 되고 싶습니다🦁</p>
             <a href="https://github.com/c-eun-5/desktop-tutorial.git">Go Github →</a>
             <a href="https://www.instagram.com/lily.sieun/">Go Instagram →</a>
         </section>
+        <script crs="sieun.js"></script>
     </div>
+    <script>
+        alert('Welcome to Sieun info page!');
+        const mainbox = document.getElementById("mainbox")
+        function darkmode() {
+            mainbox.style.backgroundColor = '#262626';
+            mainbox.style.color = 'white';
+        }
+        function lightmode() {
+            mainbox.style.backgroundColor = 'white';
+            mainbox.style.color = 'black';
+            h2.style.backgroundColor = 'cornsilk';
+        }
+    </script>
+    <script src="mode.js">
+    </script>
 </body>
 </html>

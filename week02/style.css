@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Orbit&display=swap');
 
 * {
-    font-family: "Grandiflora One", sans-serif;
+    font-family: "Orbit", sans-serif;
 }
 h2 {
     background-color: rgb(166, 166, 251);
