@@ -1,40 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sieun info</title>
     <link rel="stylesheet" href="style.css"/>
+    <style>
+        h2 {
+            background-color: rgb(166, 166, 251);
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <div id="mainbox">
         <section>
-            <div>
-                <img class="image" src="./11zon_cropped.png"/>
+            <div class="profilebox">
+                <img src="./11zon_cropped.png"/>
                 <h1>Sieun Oh</h1>
-                <input type='button' value='☀️' onclick="lightode()"/>
-                <input type='button' value='🌙' onclick="darkmode()"/>
+                <input type="button" value="☀️" onclick="lightmode()"/>
+                <input type="button" value="🌙" onclick="darkmode()"/>
             </div>
         </section>
         <section>
-            <h2>ABOUT ME</h2>
+            <h2 style="background-color: rgb(166, 166, 251); padding: 5px;">ABOUT ME</h2>
             <p>숙명여자대학교 사회심리학전공 24</p>
             <ul>
                 <li>나이: 22</li>
-                <li>파트: 기획/디자인</li>
-                <li>올해 멋사에서 얻어가고 싶은 것: IT 및 디자인 등 다양한 분야 경험, 사람들과 함께 성장하기, 즐거운 시간 보내기</li>
+                <li>파트: 기획디자인</li>
+                <li>올해 멋사에서 얻어가고 싶은 것: 새로운 분야에 대한 도전정신, 멋진 사람들과 멋진 시간 가지기</li>
             </ul>
         </section>
         <section>
             <h2>MY STUDY</h2>
-            <p>관심 언어: 영어(..)</p>
-            <p>공부중인 것: 멋사에서 배우는 모든 것들</p>
-            <p>관심 분야: UX/UI</p>
-            <p>저는 아이디어를 구현할 수 있는 디자이너, 기획자가 되고 싶습니다🦁</p>
-            <a href="https://github.com/Likelion-at-SMWU-12th/OhSiEun.git">Go Github→</a>
-            <a href="https://m.blog.naver.com/euna_lily?tab=1">Go Blog→</a>
+            <p>관심 언어: 영어^_^</p>
+            <p>공부중인 것: 내가 모르는 무수한 것들</p>
+            <p>관심 분야: UXUI</p>
+            <p>저는 서비스의 실질적 구현을 아는 디자이너가 되고 싶습니다🦁</p>
+            <a href="https://github.com/c-eun-5/desktop-tutorial.git">Go Github →</a>
+            <a href="https://www.instagram.com/lily.sieun/">Go Instagram →</a>
         </section>
+        <script crs="sieun.js"></script>
     </div>
-    <script src="sieun.js"></script>
+    <script>
+        alert('Welcome to Sieun info page!');
+        const mainbox = document.getElementById("mainbox")
+        function darkmode() {
+            mainbox.style.backgroundColor = '#262626';
+            mainbox.style.color = 'white';
+        }
+        function lightmode() {
+            mainbox.style.backgroundColor = 'white';
+            mainbox.style.color = 'black';
+            h2.style.backgroundColor = 'cornsilk';
+        }
+    </script>
+    <script src="mode.js">
+    </script>
 </body>
 </html>
